@@ -1,0 +1,33 @@
+.footer-4--div {
+    margin-top: 3rem;
+  
+    & p{
+      text-decoration: underline;
+      text-underline-offset: .6rem;
+    }
+  }
+  
+  .footer-4--div ul  {
+    list-style: none;
+    margin-top: 2rem;
+    & li a {
+      color: var(--white-color);
+      text-decoration: underline solid transparent;
+      text-underline-offset: .8rem;
+      transition: text-decoration .3s ease ;
+      -webkit-transition: text-decoration .3s ease ;
+      -moz-transition: text-decoration .3s ease ;
+      -ms-transition: text-decoration .3s ease ;
+      -o-transition: text-decoration .3s ease ;
+      display: block;
+      margin-bottom: 2rem;
+  }
+
+  
+  & li a:hover {
+    text-decoration: underline ;
+    text-underline-offset: .8rem;
+    text-decoration-color: var(--main-color);
+    -moz-text-decoration-color: var(--main-color);
+  }
+  }
